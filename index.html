@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PatchUI — Assets</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+
+    <!-- Left icon sidebar (72px, dark) -->
+    <nav class="icon-nav" aria-label="Main navigation">
+      <div class="icon-nav__brand">
+        <div class="brand-mark" aria-label="PatchUI">P</div>
+      </div>
+      <ul class="icon-nav__items" role="list">
+        <li><button class="icon-nav__btn active" aria-label="Inventory" aria-current="page">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="2" y="2" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="11" y="2" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="2" y="11" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/><rect x="11" y="11" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/></svg>
+        </button></li>
+        <li><button class="icon-nav__btn" aria-label="Issues">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5"/><path d="M10 6v4M10 13h.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </button></li>
+        <li><button class="icon-nav__btn" aria-label="Analytics">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M3 17l4-5 4 3 4-8 2 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button></li>
+        <li><button class="icon-nav__btn" aria-label="Policies">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 2l6 2.5v6c0 3.5-2.5 6-6 7.5C4.5 16.5 2 14 2 10.5v-6L10 2z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        </button></li>
+      </ul>
+      <div class="icon-nav__bottom">
+        <button class="icon-nav__btn" aria-label="Settings">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="10" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/><path d="M10 2v2M10 16v2M2 10h2M16 10h2M4.2 4.2l1.4 1.4M14.4 14.4l1.4 1.4M4.2 15.8l1.4-1.4M14.4 5.6l1.4-1.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </button>
+        <button class="icon-nav__btn" aria-label="User account">
+          <div class="avatar" aria-hidden="true">JD</div>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Secondary sidebar (252px, light) -->
+    <aside class="side-nav" aria-label="Section navigation">
+      <div class="side-nav__section">
+        <div class="side-nav__section-title">Pages</div>
+        <ul role="list">
+          <li><a href="#" class="side-nav__item">All assets</a></li>
+          <li><a href="#" class="side-nav__item active" aria-current="page">Container images</a></li>
+          <li><a href="#" class="side-nav__item">SBOMs</a></li>
+          <li><a href="#" class="side-nav__item">Repositories</a></li>
+        </ul>
+      </div>
+      <div class="side-nav__divider" role="separator"></div>
+      <div class="side-nav__section">
+        <div class="side-nav__section-title">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M8 2l1.5 3 3.5.5-2.5 2.5.5 3.5L8 10l-3 1.5.5-3.5L3 5.5 6.5 5 8 2z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/></svg>
+          Views
+        </div>
+        <ul role="list">
+          <li>
+            <a href="#" class="side-nav__item side-nav__item--view">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" class="pin-icon" aria-hidden="true"><path d="M9 1L8 5l2 2-4 4-2-2 4-2L7 5l4-4z"/></svg>
+              <span>
+                <span class="side-nav__item-name">Critical repos</span>
+                <span class="side-nav__item-meta">Asset management ···</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="side-nav__item side-nav__item--view">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" class="pin-icon" aria-hidden="true"><path d="M9 1L8 5l2 2-4 4-2-2 4-2L7 5l4-4z"/></svg>
+              <span>
+                <span class="side-nav__item-name">External APIs</span>
+                <span class="side-nav__item-meta">Asset management ···</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="side-nav__item side-nav__item--view">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor" class="pin-icon" aria-hidden="true"><path d="M9 1L8 5l2 2-4 4-2-2 4-2L7 5l4-4z"/></svg>
+              <span>
+                <span class="side-nav__item-name">High-risk packages</span>
+                <span class="side-nav__item-meta">Asset management ···</span>
+              </span>
+            </a>
+          </li>
+          <li><a href="#" class="side-nav__item side-nav__item--more">··· All views</a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Main content -->
+    <main class="main-content" id="main-content">
+
+      <!-- Top bar -->
+      <div class="top-bar">
+        <div class="breadcrumb">
+          <span class="breadcrumb__root">PatchUI</span>
+          <span class="breadcrumb__sep" aria-hidden="true">/</span>
+          <span class="breadcrumb__current">Container images</span>
+        </div>
+        <div class="top-bar__right">
+          <button class="icon-btn" aria-label="Search">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="5" stroke="currentColor" stroke-width="1.4"/><path d="M11 11l3 3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Page header -->
+      <div class="page-header">
+        <h1 class="page-header__title">Container images</h1>
+      </div>
+
+      <!-- Filter bar -->
+      <div class="filter-bar" role="toolbar" aria-label="Active filters">
+        <button class="filter-bar__icon" aria-label="Manage filters">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 4h12M4 8h8M6 12h4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        </button>
+        <div class="filter-bar__filters" role="list" aria-label="Active filters">
+          <div class="filter-pill" role="listitem">
+            <span class="filter-pill__key">Group</span>
+            <span class="filter-pill__op">is</span>
+            <span class="filter-pill__val">Bureau of Exploitation</span>
+            <button class="filter-pill__remove" aria-label="Remove Group filter">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </button>
+          </div>
+          <div class="filter-pill" role="listitem">
+            <span class="filter-pill__key">Tag</span>
+            <span class="filter-pill__op">contains</span>
+            <span class="filter-pill__val">"prod"</span>
+            <button class="filter-pill__remove" aria-label="Remove Tag filter">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </button>
+          </div>
+          <div class="filter-pill" role="listitem">
+            <span class="filter-pill__key">Asset class</span>
+            <span class="filter-pill__op">is</span>
+            <span class="filter-pill__val">A</span>
+            <button class="filter-pill__remove" aria-label="Remove Asset class filter">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </button>
+          </div>
+          <div class="filter-pill" role="listitem">
+            <span class="filter-pill__key">Risk score</span>
+            <span class="filter-pill__op">is higher than</span>
+            <span class="filter-pill__val">780</span>
+            <button class="filter-pill__remove" aria-label="Remove Risk score filter">
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            </button>
+          </div>
+          <button class="filter-add" aria-label="Add filter">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M7 2v10M2 7h10" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Table container -->
+      <div class="table-container">
+
+        <!-- Table header (title + group-by controls) -->
+        <div class="table-header">
+          <div class="table-header__caption">
+            <span class="table-header__title">Container images</span>
+            <span class="table-header__divider" aria-hidden="true">·</span>
+            <span class="table-header__count" id="total-count-badge">0 assets</span>
+          </div>
+          <div class="table-header__actions">
+            <!-- Group-by segmented control -->
+            <div class="segmented-control" role="group" aria-label="Group by">
+              <span class="segmented-control__label">Group by:</span>
+              <select id="group-by-select" class="segmented-select" aria-label="Group by dimension">
+                <option value="">No grouping</option>
+                <option value="assetClass">Asset class</option>
+                <option value="team">Team</option>
+                <option value="type">Type</option>
+                <option value="environment">Environment</option>
+              </select>
+            </div>
+            <!-- Density toggle -->
+            <div class="density-toggle" role="group" aria-label="Row density">
+              <button id="density-comfortable" class="density-btn active" aria-pressed="true" title="Comfortable density">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 4h12M2 8h12M2 12h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </button>
+              <button id="density-compact" class="density-btn" aria-pressed="false" title="Compact density">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 3h12M2 6h12M2 9h12M2 12h12" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+              </button>
+            </div>
+            <!-- Column visibility -->
+            <div class="toolbar-item" style="position:relative">
+              <button id="col-toggle-btn" class="icon-btn icon-btn--labeled" aria-haspopup="true" aria-expanded="false">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="2" y="3" width="4" height="10" rx="1" stroke="currentColor" stroke-width="1.3"/><rect x="8" y="3" width="6" height="10" rx="1" stroke="currentColor" stroke-width="1.3"/></svg>
+                Columns
+              </button>
+              <div id="col-toggle-panel" class="dropdown-panel hidden" role="dialog" aria-label="Toggle columns"></div>
+            </div>
+            <!-- Bulk actions -->
+            <div class="toolbar-item" style="position:relative">
+              <button id="bulk-action-btn" class="btn btn--primary" disabled aria-haspopup="menu" aria-expanded="false">Actions</button>
+              <div id="bulk-action-menu" class="dropdown-panel hidden" role="menu">
+                <button role="menuitem" data-action="review">Mark as reviewed</button>
+                <button role="menuitem" data-action="export">Export selected</button>
+                <button role="menuitem" data-action="archive">Archive</button>
+                <button role="menuitem" class="danger" data-action="delete">Delete</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Selection status bar -->
+        <div id="selection-bar" class="selection-bar hidden" role="status">
+          <span id="selection-count" class="selection-bar__count"></span>
+          <button id="select-all-btn" class="selection-bar__link">Select all items in this view</button>
+          <button id="deselect-btn" class="selection-bar__link">Deselect all</button>
+        </div>
+
+        <!-- Grid scroll wrapper -->
+        <div class="grid-scroll-wrapper" id="grid-scroll-wrapper">
+          <div id="grid" role="grid" aria-label="Security Assets" aria-rowcount="-1" aria-colcount="9" class="comfortable">
+
+            <!-- Header -->
+            <div role="rowgroup" class="grid-head" id="grid-head">
+              <div role="row" class="header-row" id="header-row">
+                <!-- populated by JS -->
+              </div>
+            </div>
+
+            <!-- Body -->
+            <div role="rowgroup" class="grid-body" id="grid-body">
+              <div class="top-spacer" id="top-spacer" aria-hidden="true" style="height:0"></div>
+              <div id="sentinel" aria-hidden="true" class="sentinel"></div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Pagination footer -->
+        <div class="table-footer" id="table-footer">
+          <div class="pagination">
+            <button class="btn btn--ghost" id="prev-btn" disabled>
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M9 11L5 7l4-4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Previous
+            </button>
+            <button class="btn btn--ghost" id="next-btn">
+              Next
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M5 3l4 4-4 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+          <div class="page-size-control">
+            <label for="page-size-select" class="page-size-label">Items per page</label>
+            <select id="page-size-select" class="page-size-select">
+              <option value="10" selected>10</option>
+              <option value="25">25</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+            </select>
+          </div>
+        </div>
+
+      </div><!-- /table-container -->
+
+      <!-- Load status -->
+      <div id="load-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
+      <!-- Announcer -->
+      <div id="announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+      <!-- Back to top (hidden by default, shown after DOM pruning) -->
+      <button id="back-to-top" class="back-to-top hidden" aria-label="Back to top, reloads from first item">&#8593; Back to top</button>
+
+    </main><!-- /main-content -->
+
+  </div><!-- /app-shell -->
+
+  <!-- Floating bulk actions bar (outside app-shell, fixed positioned) -->
+  <div id="floating-bulk-bar" class="floating-bulk-bar hidden" role="region" aria-label="Bulk actions">
+    <div class="floating-bulk-bar__inner">
+      <div class="floating-bulk-bar__selection">
+        <span id="floating-selection-count" class="floating-bulk-bar__count"></span>
+        <button id="floating-deselect-btn" class="floating-bulk-bar__clear" aria-label="Clear selection">
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true"><path d="M2 2l10 10M12 2L2 12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <div class="floating-bulk-bar__sep" aria-hidden="true"></div>
+      <div class="floating-bulk-bar__actions">
+        <button class="floating-bulk-bar__btn" data-action="monitor">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.4"/><polygon points="6,5 12,8 6,11" fill="currentColor"/></svg>
+          Monitor
+        </button>
+        <button class="floating-bulk-bar__btn" data-action="pause">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="4" y="3" width="3" height="10" rx="1" fill="currentColor"/><rect x="9" y="3" width="3" height="10" rx="1" fill="currentColor"/></svg>
+          Pause
+        </button>
+        <button class="floating-bulk-bar__btn" data-action="retest">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M13 8A5 5 0 1 1 8 3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M8 1v4l3-2-3-2z" fill="currentColor"/></svg>
+          Retest
+        </button>
+        <button class="floating-bulk-bar__btn floating-bulk-bar__btn--danger" data-action="delete">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 4h10M6 4V2h4v2M5 4l.5 9h5L11 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Detail panel -->
+  <aside id="detail-panel" class="detail-panel" aria-hidden="true" aria-label="Asset details">
+    <div class="detail-panel-inner">
+      <button id="detail-close" class="detail-close" aria-label="Close asset details">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+      <div id="detail-content"></div>
+    </div>
+  </aside>
+  <div id="backdrop" class="backdrop hidden"></div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
